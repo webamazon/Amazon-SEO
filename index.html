@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SEO Generator Tool</h1>
+        <p>Create powerful SEO strategies in minutes!</p>
+    </header>
+
+    <main>
+        <section id="keyword-research">
+            <h2>Keyword Research</h2>
+            <input type="text" id="keyword-input" placeholder="Enter a topic or keyword...">
+            <button onclick="generateKeywords()">Generate Keywords</button>
+            <div id="keyword-results"></div>
+        </section>
+
+        <section id="meta-tag-generator">
+            <h2>Meta Tag Generator</h2>
+            <input type="text" id="meta-title" placeholder="Page Title">
+            <textarea id="meta-description" placeholder="Page Description"></textarea>
+            <button onclick="generateMetaTags()">Generate Meta Tags</button>
+            <div id="meta-results"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SEO Generator. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
